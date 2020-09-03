@@ -1,0 +1,87 @@
+/* 常用颜色 */
+@c1:#E31E09;
+@c2:#932107;
+@c3:#F9AE36;
+@c4:#79747A;
+@c5:#242426;
+@c6:#fff;
+@c7:#474249;
+@c8:#908C89;
+@c9:#1BC53D;
+@c10:#0079D2;
+@c11:#1B601C;
+
+.list{
+    height: 100vh;
+    overflow: hidden;
+    main{
+        padding-top:0.3rem;
+        nav{
+            width: 7rem;
+            margin:0 auto 0.5rem;
+            display:flex;
+            border-radius: 0.2rem;
+            overflow: hidden;
+            a{
+                width: 1.735rem;
+                height: 1.5rem;
+                background: @c6;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                i{
+                    color:@c3;
+                    font-size: 0.4rem;
+                }
+                span{
+                    color:@c7;
+                    margin-top:0.1rem
+                }
+            }
+        }
+        section{
+            h3{
+                margin:0.1rem auto;
+                text-align: center;
+                color:@c5;
+            }
+            ul{
+                display: flex;
+                padding:0 0.23rem;
+                flex-wrap: wrap;
+
+                // justify-content: space-between;
+                li:nth-child(3n-1){
+                    margin:0.2rem 0.22rem;
+                }
+                li{
+                    width: 2.2rem;
+                    flex-shrink: 0;
+                    background: @c6;
+                    margin:0.2rem 0rem;
+                    border-radius: 0.1rem;
+                    overflow: hidden;
+                    padding-bottom: 0.2rem;
+                    img{
+                        width: 100%;
+                        height: 1.5rem;
+                    }
+                    h4{
+                        padding:0 0.1rem;
+                        font-size: 0.26rem;
+                    }
+                    b{
+                        padding:0 0.1rem;
+                        font-size: 0.24rem;
+                        display: block;
+                    }
+                    span{
+                        padding:0 0.1rem;
+                        font-size: 0.24rem;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,89 @@
+/* 常用颜色 */
+@c1: #E31E09;
+@c2: #932107;
+@c3: #F9AE36;
+@c4: #79747A;
+@c5: #242426;
+@c6: #fff;
+@c7: #474249;
+@c8: #908C89;
+@c9: #1BC53D;
+@c10: #0079D2;
+@c11: #1B601C;
+
+.menuItems {
+transition: all 0.3s;
+   width:3rem;
+   height: 100vh;
+   background: rgba(0, 0, 0, 0.8);
+   position:fixed;
+   left:-3rem;
+   top:0;
+   z-index: 100;
+   .asideLeft{
+       position: absolute;
+       left: 0;
+       top:0;
+       height:100vh;
+       width: 3rem;
+       background: lightgray;
+       main{
+           position: relative;
+           z-index: 10;
+           background: lightgray;
+           ul{
+               padding-left: 0.4rem;
+               font-size: 0.3rem;
+               li{
+                   display: flex;
+                   align-items: center;
+                //    justify-content: center;
+                   width: 2.6rem;
+                   line-height: 1rem;
+                   border-bottom: 0.01rem solid @c8;
+               }
+           }
+           ul:nth-child(1){
+               font-size: 0.24rem;
+               li{
+                   color: @c10;
+                   i{
+                       color: @c3;
+                   }
+               }
+           }
+       }
+       p{
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+           align-items: flex-end;
+           width: 0.9rem;
+           height: 1rem;
+           background: lightgray;
+           border-radius: 50%;
+           border:1px solid @c6;
+           color:@c6;
+           margin-right: 0.1rem;
+           position: absolute;
+           right: -0.8rem;
+           top:50%;
+           padding-right: 0.1rem;
+           i{
+               font-size: 0.5rem;
+               color: black;
+               margin-right: 0.08rem;
+           }
+           span{
+               color:@c6;
+               font-size: 0.24rem;
+               color: @c5;
+               transform: scale(0.8);
+           }
+       }
+   }
+}
+.active{
+    width: 100vw;
+    left: 0px;
+}

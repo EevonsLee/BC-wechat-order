@@ -1,0 +1,36 @@
+[
+    {
+        "id": "orH6d1BlTsF3LiogJRJ3322BPREaSzz8",
+        "nickname": "追梦人",
+        "mobile": "",
+        "url": "http://thirdwx.qlogo.cn/mmopen/vi_32/5L5hZI2btoNJNb7w13lml1gsewFnRgcSickbVJr7VUUFSbeibwjH8X1qxgic0Kl7LqPItqXMnsONh8nJ5Qnyia273g/132",
+        "sex": "0",
+        "anniversaryName": "",
+        "anniversaryDay": "",
+        "birthday": "",
+        "isCanSetBirthday": 1,
+        "isCanSetAnniversary": 1,
+        "countryCode": "+86",
+        "fireSeedLevel": 1,
+        "vip": false,
+        "mobileIsVerified": 0,
+        "haveSetPassword": false,
+        "plateNumber": 0,
+        "faceId": 0,
+        "setTaste": false,
+        "phone": "111113232",
+        "email": "34242234"
+    },
+    {
+        "openid": "orH6d1BlTsF3LiogJRJBPREaSzz8",
+        "nickname": "追梦人",
+        "sex": 1,
+        "language": "zh_CN",
+        "city": "济南",
+        "province": "山东",
+        "country": "中国",
+        "headimgurl": "http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTLWON3bMNsSNDDgib105KbAIsd5NPbmx74FOfA2Ivbq040t9gI27xGywiaah9annvYhIwus3Omk57Pg/132",
+        "privilege": [],
+        "id": "orH6d1BlTsF3LiogJRJBPREaSzz8"
+    }
+]

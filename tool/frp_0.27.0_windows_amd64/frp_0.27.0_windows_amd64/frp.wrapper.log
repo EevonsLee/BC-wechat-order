@@ -1,0 +1,111 @@
+2019-12-04 22:15:34,137 DEBUG - Starting ServiceWrapper in the CLI mode
+2019-12-04 22:15:34,513 INFO  - Installing the service with id 'frp'
+2019-12-04 22:15:34,526 DEBUG - Completed. Exit code is 0
+2019-12-04 22:16:02,953 INFO  - Starting ServiceWrapper in the service mode
+2019-12-04 22:16:02,976 INFO  - Starting frpc -c frpc.ini
+2019-12-04 22:16:02,990 INFO  - Starting frpc -c frpc.ini
+2019-12-04 22:16:03,076 INFO  - Started process 5944
+2019-12-04 22:16:03,098 DEBUG - Forwarding logs of the process System.Diagnostics.Process (frpc) to winsw.ResetLogAppender
+2019-12-04 22:19:47,812 DEBUG - Starting ServiceWrapper in the CLI mode
+2019-12-04 22:19:48,107 INFO  - Uninstalling the service with id 'frp'
+2019-12-04 22:19:48,113 WARN  - The service with id 'frp' is running. It may be impossible to uninstall it
+2019-12-04 22:19:48,128 DEBUG - Completed. Exit code is 0
+2019-12-04 22:19:54,415 INFO  - Stopping frp
+2019-12-04 22:19:54,419 DEBUG - ProcessKill 5944
+2019-12-04 22:19:54,482 INFO  - Found child process: 2588 Name: conhost.exe
+2019-12-04 22:19:54,520 INFO  - Stopping process 2588
+2019-12-04 22:19:54,530 INFO  - Send SIGINT 2588
+2019-12-04 22:19:54,535 WARN  - SIGINT to 2588 failed - Killing as fallback
+2019-12-04 22:19:54,540 INFO  - Stopping process 5944
+2019-12-04 22:19:54,547 INFO  - Send SIGINT 5944
+2019-12-04 22:19:54,552 WARN  - SIGINT to 5944 failed - Killing as fallback
+2019-12-04 22:19:54,558 INFO  - Finished frp
+2019-12-04 22:19:54,563 DEBUG - Completed. Exit code is 0
+2019-12-04 22:19:58,422 DEBUG - Starting ServiceWrapper in the CLI mode
+2019-12-04 22:19:58,715 INFO  - Uninstalling the service with id 'frp'
+2019-12-04 22:19:58,720 WARN  - The service with id 'frp' does not exist. Nothing to uninstall
+2019-12-04 22:19:58,725 DEBUG - Completed. Exit code is 0
+2019-12-04 22:23:30,258 DEBUG - Starting ServiceWrapper in the CLI mode
+2019-12-04 22:23:30,622 INFO  - Installing the service with id 'frp'
+2019-12-04 22:23:30,637 DEBUG - Completed. Exit code is 0
+2019-12-04 22:24:10,524 INFO  - Starting ServiceWrapper in the service mode
+2019-12-04 22:24:10,554 INFO  - Starting frpc -c frpc.ini
+2019-12-04 22:24:10,564 INFO  - Starting frpc -c frpc.ini
+2019-12-04 22:24:10,665 INFO  - Started process 5764
+2019-12-04 22:24:10,684 DEBUG - Forwarding logs of the process System.Diagnostics.Process (frpc) to winsw.ResetLogAppender
+2019-12-05 02:45:54,722 INFO  - Stopping frp
+2019-12-05 02:45:54,737 DEBUG - ProcessKill 5764
+2019-12-05 02:45:54,821 WARN  - Failed to locate children of the process with PID=5764. Child processes won't be terminated
+System.Runtime.InteropServices.COMException (0x8007045B): 系统正在关机。 (异常来自 HRESULT:0x8007045B)
+   在 System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   在 System.Management.ManagementScope.InitializeGuts(Object o)
+   在 System.Management.ManagementScope.Initialize()
+   在 System.Management.ManagementObjectSearcher.Initialize()
+   在 System.Management.ManagementObjectSearcher.Get()
+   在 winsw.Util.ProcessHelper.GetChildPids(Int32 pid)
+2019-12-05 02:45:54,837 INFO  - Stopping process 5764
+2019-12-05 02:45:54,837 INFO  - Send SIGINT 5764
+2019-12-05 02:45:54,931 INFO  - SIGINT to5764 successful
+2019-12-05 02:45:54,931 INFO  - Finished frp
+2019-12-05 02:45:54,946 DEBUG - Completed. Exit code is 0
+2019-12-05 20:47:05,653 INFO  - Starting ServiceWrapper in the service mode
+2019-12-05 20:47:05,794 INFO  - Starting frpc -c frpc.ini
+2019-12-05 20:47:05,837 INFO  - Starting frpc -c frpc.ini
+2019-12-05 20:47:05,887 INFO  - Started process 7068
+2019-12-05 20:47:05,897 DEBUG - Forwarding logs of the process System.Diagnostics.Process (frpc) to winsw.ResetLogAppender
+2019-12-05 23:57:28,569 INFO  - Starting ServiceWrapper in the service mode
+2019-12-05 23:57:28,585 INFO  - Starting frpc -c frpc.ini
+2019-12-05 23:57:28,587 INFO  - Starting frpc -c frpc.ini
+2019-12-05 23:57:29,394 INFO  - Started process 10860
+2019-12-05 23:57:29,405 DEBUG - Forwarding logs of the process System.Diagnostics.Process (frpc) to winsw.ResetLogAppender
+2019-12-06 01:29:17,342 INFO  - Stopping frp
+2019-12-06 01:29:17,358 DEBUG - ProcessKill 10860
+2019-12-06 01:29:17,452 WARN  - Failed to locate children of the process with PID=10860. Child processes won't be terminated
+System.Runtime.InteropServices.COMException (0x8007045B): 系统正在关机。 (异常来自 HRESULT:0x8007045B)
+   在 System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   在 System.Management.ManagementScope.InitializeGuts(Object o)
+   在 System.Management.ManagementScope.Initialize()
+   在 System.Management.ManagementObjectSearcher.Initialize()
+   在 System.Management.ManagementObjectSearcher.Get()
+   在 winsw.Util.ProcessHelper.GetChildPids(Int32 pid)
+2019-12-06 01:29:17,468 INFO  - Stopping process 10860
+2019-12-06 01:29:17,468 INFO  - Send SIGINT 10860
+2019-12-06 01:29:17,530 INFO  - SIGINT to10860 successful
+2019-12-06 01:29:17,546 INFO  - Finished frp
+2019-12-06 01:29:17,546 DEBUG - Completed. Exit code is 0
+2019-12-06 22:15:00,876 INFO  - Starting ServiceWrapper in the service mode
+2019-12-06 22:15:01,093 INFO  - Starting frpc -c frpc.ini
+2019-12-06 22:15:01,104 INFO  - Starting frpc -c frpc.ini
+2019-12-06 22:15:01,150 INFO  - Started process 6908
+2019-12-06 22:15:01,157 DEBUG - Forwarding logs of the process System.Diagnostics.Process (frpc) to winsw.ResetLogAppender
+2019-12-07 22:32:08,218 INFO  - Starting ServiceWrapper in the service mode
+2019-12-07 22:32:08,387 INFO  - Starting frpc -c frpc.ini
+2019-12-07 22:32:08,399 INFO  - Starting frpc -c frpc.ini
+2019-12-07 22:32:08,470 INFO  - Started process 6952
+2019-12-07 22:32:08,480 DEBUG - Forwarding logs of the process System.Diagnostics.Process (frpc) to winsw.ResetLogAppender
+2019-12-07 22:48:52,418 INFO  - Starting ServiceWrapper in the service mode
+2019-12-07 22:48:52,552 INFO  - Starting frpc -c frpc.ini
+2019-12-07 22:48:52,560 INFO  - Starting frpc -c frpc.ini
+2019-12-07 22:48:52,634 INFO  - Started process 6428
+2019-12-07 22:48:52,643 DEBUG - Forwarding logs of the process System.Diagnostics.Process (frpc) to winsw.ResetLogAppender
+2019-12-08 14:35:04,078 INFO  - Starting ServiceWrapper in the service mode
+2019-12-08 14:35:04,125 INFO  - Starting frpc -c frpc.ini
+2019-12-08 14:35:04,141 INFO  - Starting frpc -c frpc.ini
+2019-12-08 14:35:05,081 INFO  - Started process 13232
+2019-12-08 14:35:05,081 DEBUG - Forwarding logs of the process System.Diagnostics.Process (frpc) to winsw.ResetLogAppender
+2019-12-08 14:51:08,027 INFO  - Stopping frp
+2019-12-08 14:51:08,027 DEBUG - ProcessKill 13232
+2019-12-08 14:51:08,112 INFO  - Found child process: 7888 Name: conhost.exe
+2019-12-08 14:51:08,165 INFO  - Stopping process 7888
+2019-12-08 14:51:08,165 INFO  - Send SIGINT 7888
+2019-12-08 14:51:08,181 WARN  - SIGINT to 7888 failed - Killing as fallback
+2019-12-08 14:51:08,197 INFO  - Stopping process 13232
+2019-12-08 14:51:08,197 INFO  - Send SIGINT 13232
+2019-12-08 14:51:08,212 WARN  - SIGINT to 13232 failed - Killing as fallback
+2019-12-08 14:51:08,212 INFO  - Finished frp
+2019-12-08 14:51:08,212 DEBUG - Completed. Exit code is 0
+2019-12-08 14:51:09,514 INFO  - Starting ServiceWrapper in the service mode
+2019-12-08 14:51:09,529 INFO  - Starting frpc -c frpc.ini
+2019-12-08 14:51:09,529 INFO  - Starting frpc -c frpc.ini
+2019-12-08 14:51:09,594 INFO  - Started process 9416
+2019-12-08 14:51:09,594 DEBUG - Forwarding logs of the process System.Diagnostics.Process (frpc) to winsw.ResetLogAppender

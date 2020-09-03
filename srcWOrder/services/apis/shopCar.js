@@ -1,0 +1,6 @@
+const Host=""
+export const sendShopCar=Host+"/api/shopCar/sendShopCar"
+export const changePeople=Host+"/api/shopCar/changePeople"
+export const getShopCar=Host+"/api/shopCar/getShopCar"
+export const changeShopCar=Host+"/api/shopCar/changeShopCar"
+export const clearShopCar=Host+"/api/shopCar/clearShopCar"

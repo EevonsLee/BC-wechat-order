@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="微信点餐" />
+  <title>微信点餐</title>
+  <link rel="stylesheet" href="/css/icon_font/iconfont.css">
+  <script>
+    function Rem() {
+      let fontSize = 0
+      const clientWidth = document.documentElement.clientWidth
+      if (clientWidth <= 320) {
+        fontSize = 320 / 7.5
+      } else if (clientWidth > 750) {
+        fontSize = 750 / 7.5
+      } else {
+        fontSize = clientWidth / 7.5
+      }
+      document.documentElement.style.fontSize = fontSize + "px"
+    }
+    window.onresize = () => {
+      Rem()
+    }
+    Rem()
+  </script>
+</head>
+
+<body>
+  <div id="root"></div>
+</body>
+
+</html>

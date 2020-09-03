@@ -1,0 +1,71 @@
+/* 常用颜色 */
+@c1:#E31E09;
+@c2:#932107;
+@c3:#F9AE36;
+@c4:#79747A;
+@c5:#242426;
+@c6:#fff;
+@c7:#474249;
+@c8:#908C89;
+@c9:#1BC53D;
+@c10:#0079D2;
+@c11:#1B601C;
+@c12:#e8e7e6;
+
+.index{
+    main{
+       .scrollCon{
+           padding:0.5rem 0 1rem;
+           h2{
+               img{
+                   width: 1rem;
+                   height: 1rem;
+                   border-radius: 50%;
+               }
+               text-align: center;
+               font-size: 0.32rem;
+               margin-bottom: 0.5rem;
+           }
+           .item{
+                background: @c6;
+                padding:0 0.2rem;
+                line-height: 1rem;
+                border-bottom: 1px solid @c12;
+                section{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    border-bottom: 1px solid @c12;
+                    aside{
+                        
+                        span{
+                            font-weight: bold;
+                            font-size: 0.32rem;
+                            width: 1.2rem;
+                            display: inline-block
+                        }
+                        input{
+                            font-size: 0.24rem;
+                            line-height: 0.6rem;
+                            border-radius: 0.2rem;
+                            padding: 0 0.2rem;
+                        }
+                        input:disabled{
+                            background: none;
+                            border: none;
+                        }
+                      
+                    }
+                    p{
+                        i:nth-child(1){
+                            color: @c1;
+                        }
+                        i:nth-child(2){
+                         color: @c9;
+                     }
+                    }
+                }
+           }
+       }
+    }
+}

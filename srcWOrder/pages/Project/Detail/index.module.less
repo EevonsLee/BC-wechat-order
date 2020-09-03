@@ -1,0 +1,77 @@
+/* 常用颜色 */
+@c1:#E31E09;
+@c2:#932107;
+@c3:#F9AE36;
+@c4:#79747A;
+@c5:#242426;
+@c6:#fff;
+@c7:#474249;
+@c8:#908C89;
+@c9:#1BC53D;
+@c10:#0079D2;
+@c11:#1B601C;
+
+
+.detail{
+    img{
+        width: 100vw;
+    }
+    section{
+        background: @c6;
+        padding:0.2rem;
+        p{
+            color:@c1;
+            font-weight: bold;
+            line-height: 0.6rem;
+        }
+    }
+    footer{
+        position: fixed;
+        width: 7.1rem;
+        bottom: 0;
+        left: 0;
+        height: 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding:0 0.2rem;
+        background: @c6;
+        aside{
+            display: flex;
+            align-items: center;
+            p{
+                overflow: hidden;
+                text-align: center;
+                line-height: 0.6rem;
+                border: 1px solid @c4;
+                margin-left: 0.2rem;
+                b{
+                    font-size: 0.5rem;
+                    color: @c1;
+                    background: @c6;
+                    width: 0.6rem;
+                    line-height: 0.6rem;
+                    float: left;
+                }
+                span{
+                    color: @c5;
+                    background: @c6;
+                    width: 0.8rem;
+                    height: 0.6rem;
+                    border-left: 1px solid @c4;
+                    border-right: 1px solid @c4;
+                    float: left;
+                }
+            }
+        }
+        .shop{
+            height: 0.7rem;
+            font-size: 0.24rem;
+            background: @c1;
+            color: @c6;
+            padding:0 0.2rem;
+            border-radius: 0.7rem;
+        }
+    }
+   
+}

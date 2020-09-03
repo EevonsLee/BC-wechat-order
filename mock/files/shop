@@ -1,0 +1,18 @@
+ [
+         {
+            "longitude": 116.277524,
+            "latitude": 39.913473,
+            "shopPhone": "13521000610",
+            "shop_name": "紫龙火锅",
+            "id": "b9a5eea53c8d4f154174dbff53892e24",
+            "shop_logo_img_url": "/00039042/shopimg/4c6015ec0d45499e974ddb54c76b0cc3.png"
+        },
+        {
+            "longitude": 116.277524,
+            "latitude": 39.913473,
+            "shopPhone": "13521000110",
+            "shop_name": "红火小吃",
+            "id": "b9a5eea53c8d4f154174dbff53892234",
+            "shop_logo_img_url": "/00039042/shopimg/4c6015ec0d45499e974ddb54c76b0cc3.png"
+        }
+]
